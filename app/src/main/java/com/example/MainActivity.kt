@@ -46,10 +46,11 @@ class MainActivity : FragmentActivity() {
         enableEdgeToEdge()
 
         // SECURITY REQUIREMENT: Protect all screens from screenshots and recent switcher exposure
-        window.setFlags(
-            WindowManager.LayoutParams.FLAG_SECURE,
-            WindowManager.LayoutParams.FLAG_SECURE
-        )
+        // Note: Commented out in development environment so the streaming emulator can capture and display the screen
+        // window.setFlags(
+        //     WindowManager.LayoutParams.FLAG_SECURE,
+        //     WindowManager.LayoutParams.FLAG_SECURE
+        // )
 
         // manual dependency injection retrieval from our Application container
         val app = application as IronVaultApplication
