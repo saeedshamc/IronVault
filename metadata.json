@@ -1,0 +1,6 @@
+{
+  "name": "IronVault",
+  "description": "An offline-first, highly secure password manager and generator with biometric unlock and zero-knowledge encrypted cloud backups.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

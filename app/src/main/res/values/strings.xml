@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">IronVault</string>
+    <string name="app_description">Offline-first encrypted vault and password manager.</string>
+
+    <!-- Biometric & Lock -->
+    <string name="biometric_prompt_title">Unlock IronVault</string>
+    <string name="biometric_prompt_subtitle">Use your biometric credential to unlock the vault</string>
+    <string name="biometric_prompt_negative">Use Master Password</string>
+    <string name="unlock_button">Unlock with Biometrics</string>
+    <string name="enter_password_hint">Enter Master Password</string>
+    <string name="unlock_with_password">Unlock</string>
+    <string name="error_incorrect_password">Incorrect Master Password. Attempts remaining: %1$d</string>
+    <string name="error_brute_force_blocked">Too many failed attempts. Please wait %1$d seconds.</string>
+
+    <!-- Onboarding -->
+    <string name="setup_title">Set Up Your Vault</string>
+    <string name="setup_subtitle">Create a strong Master Password. It is the sole key to encrypt and decrypt your vault.</string>
+    <string name="master_password_hint">Create Master Password</string>
+    <string name="confirm_password_hint">Confirm Master Password</string>
+    <string name="password_mismatch">Passwords do not match.</string>
+    <string name="password_too_weak">Password is too weak. Please include letters, numbers, and symbols.</string>
+    <string name="zero_knowledge_warning">WARNING: If you forget your Master Password, your data cannot be recovered by anyone — including the app developer — because of end-to-end (zero-knowledge) encryption.</string>
+    <string name="onboarding_warning_checkbox">I understand that my password cannot be recovered if lost.</string>
+    <string name="setup_vault_button">Create Secure Vault</string>
+
+    <!-- Tabs/Navigation -->
+    <string name="tab_vault">Vault</string>
+    <string name="tab_generator">Generator</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Password Generator -->
+    <string name="generator_title">Generator</string>
+    <string name="length_label">Length: %1$d</string>
+    <string name="include_uppercase">Uppercase Letters (A-Z)</string>
+    <string name="include_lowercase">Lowercase Letters (a-z)</string>
+    <string name="include_numbers">Numbers (0-9)</string>
+    <string name="include_symbols">Symbols (!@#$%)</string>
+    <string name="exclude_ambiguous">Exclude Ambiguous (l, 1, I, O, 0)</string>
+    <string name="pronounceable_mode">Pronounceable / Memorable Mode</string>
+    <string name="copy_password_button">Copy Password</string>
+    <string name="strength_weak">Weak</string>
+    <string name="strength_medium">Medium</string>
+    <string name="strength_strong">Strong</string>
+    <string name="strength_very_strong">Very Strong</string>
+    <string name="entropy_estimate">Entropy: %1$.1f bits</string>
+    <string name="password_copied">Password copied to clipboard (clears in 30s)</string>
+
+    <!-- Vault (List) -->
+    <string name="vault_title">IronVault</string>
+    <string name="search_placeholder">Search credentials...</string>
+    <string name="no_items_found">No items found</string>
+    <string name="add_item_fab">Add Item</string>
+    <string name="favorite_filter">Favorites</string>
+    <string name="all_filter">All</string>
+    <string name="category_personal">Personal</string>
+    <string name="category_work">Work</string>
+    <string name="category_banking">Banking</string>
+    <string name="category_social">Social</string>
+    <string name="copied_username">Username copied</string>
+    <string name="copied_password">Password copied</string>
+
+    <!-- Detail / Edit Screen -->
+    <string name="add_item_title">Add New Credential</string>
+    <string name="edit_item_title">Edit Credential</string>
+    <string name="item_name_hint">Title (e.g., Google, GitHub)</string>
+    <string name="username_hint">Username or Email</string>
+    <string name="password_hint">Password</string>
+    <string name="url_hint">Website URL (optional)</string>
+    <string name="notes_hint">Notes (fully encrypted)</string>
+    <string name="category_label">Category</string>
+    <string name="favorite_label">Mark as Favorite</string>
+    <string name="save_button">Save Credential</string>
+    <string name="delete_button">Delete</string>
+    <string name="delete_confirm_title">Delete Credential?</string>
+    <string name="delete_confirm_message">Are you sure you want to permanently delete this credential? This action cannot be undone.</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="password_history_title">Password History</string>
+    <string name="no_history">No previous passwords recorded.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="security_settings_category">Security</string>
+    <string name="backup_settings_category">Backup &amp; Sync</string>
+    <string name="appearance_settings_category">Appearance &amp; Localization</string>
+
+    <string name="change_master_password">Change Master Password</string>
+    <string name="enable_biometric">Enable Biometric Unlock</string>
+    <string name="autolock_timeout">Auto-Lock Idle Timeout</string>
+    <string name="autolock_30s">30 Seconds</string>
+    <string name="autolock_1m">1 Minute</string>
+    <string name="autolock_5m">5 Minutes</string>
+    <string name="autolock_15m">15 Minutes</string>
+
+    <string name="google_drive_sync">Google Drive Backup</string>
+    <string name="google_drive_sync_summary">Zero-knowledge encrypted backup to your private App Data folder</string>
+    <string name="backup_now_button">Backup Now</string>
+    <string name="restore_backup_button">Restore from Drive</string>
+    <string name="last_backup_time">Last backup: %1$s</string>
+    <string name="never_backed_up">Last backup: Never</string>
+
+    <string name="local_export">Export Encrypted File</string>
+    <string name="local_export_summary">Save a secure encrypted backup file locally</string>
+    <string name="local_import">Import Encrypted File</string>
+    <string name="local_import_summary">Restore from a local secure backup file</string>
+
+    <string name="theme_selection">Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System Default</string>
+
+    <string name="language_selection">Language / زبان</string>
+    <string name="language_en">English (LTR)</string>
+    <string name="language_fa">فارسی (RTL)</string>
+
+    <string name="security_info_title">How IronVault Protects You</string>
+    <string name="security_info_text">IronVault is completely offline-first. We do not use any analytics, trackers, or remote servers. All your passwords, usernames, and notes are encrypted on your device using military-grade AES-256-GCM encryption. The encryption key is derived locally using high-iteration PBKDF2. Your Master Password is the sole key, and it never leaves your device. If you use Google Drive backup, the uploaded file is fully encrypted with your Master Password, so even Google cannot read your vault.</string>
+
+    <string name="backup_success">Backup completed successfully!</string>
+    <string name="backup_failed">Backup failed: %1$s</string>
+    <string name="restore_success">Restore completed successfully! Vault reloaded.</string>
+    <string name="restore_failed">Restore failed: %1$s</string>
+    <string name="export_success">Exported successfully to Downloads</string>
+    <string name="import_success">Imported successfully</string>
+    <string name="import_failed">Import failed: Invalid password or corrupted file</string>
+</resources>

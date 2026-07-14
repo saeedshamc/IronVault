@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">آیرون‌ولت</string>
+    <string name="app_description">صندوقچه امن و مدیریت گذرواژه کاملاً آفلاین و رمزگذاری‌شده.</string>
+
+    <!-- Biometric & Lock -->
+    <string name="biometric_prompt_title">باز کردن قفل آیرون‌ولت</string>
+    <string name="biometric_prompt_subtitle">برای باز کردن صندوقچه از هویت زیست‌سنجی خود استفاده کنید</string>
+    <string name="biometric_prompt_negative">استفاده از رمز عبور اصلی</string>
+    <string name="unlock_button">باز کردن با اثر انگشت / تشخیص چهره</string>
+    <string name="enter_password_hint">رمز عبور اصلی را وارد کنید</string>
+    <string name="unlock_with_password">باز کردن قفل</string>
+    <string name="error_incorrect_password">رمز عبور اصلی نادرست است. تلاش‌های باقی‌مانده: %1$d</string>
+    <string name="error_brute_force_blocked">تلاش‌های ناموفق بیش از حد بود. لطفا %1$d ثانیه صبر کنید.</string>
+
+    <!-- Onboarding -->
+    <string name="setup_title">راه‌اندازی صندوقچه امن</string>
+    <string name="setup_subtitle">یک رمز عبور اصلی قوی بسازید. این رمز تنها کلید رمزگذاری و رمزگشایی اطلاعات شماست.</string>
+    <string name="master_password_hint">رمز عبور اصلی جدید</string>
+    <string name="confirm_password_hint">تایید رمز عبور اصلی</string>
+    <string name="password_mismatch">رمزهای عبور مطابقت ندارند.</string>
+    <string name="password_too_weak">رمز عبور ضعیف است. لطفاً از ترکیب حروف، اعداد و نمادها استفاده کنید.</string>
+    <string name="zero_knowledge_warning">هشدار: اگر رمز عبور اصلی خود را فراموش کنید، اطلاعات شما به هیچ وجه — حتی توسط برنامه‌نویس — قابل بازیابی نخواهد بود؛ چرا که رمزگذاری به صورت کاملاً سرتاسری (با دانش صفر) انجام می‌شود.</string>
+    <string name="onboarding_warning_checkbox">متوجه هستم که در صورت فراموشی رمز عبور، اطلاعاتم قابل بازیابی نخواهد بود.</string>
+    <string name="setup_vault_button">ایجاد صندوقچه امن</string>
+
+    <!-- Tabs/Navigation -->
+    <string name="tab_vault">صندوقچه</string>
+    <string name="tab_generator">سازنده رمز</string>
+    <string name="tab_settings">تنظیمات</string>
+
+    <!-- Password Generator -->
+    <string name="generator_title">ساخت گذرواژه</string>
+    <string name="length_label">طول رمز: %1$d</string>
+    <string name="include_uppercase">حروف بزرگ انگلیسی (A-Z)</string>
+    <string name="include_lowercase">حروف کوچک انگلیسی (a-z)</string>
+    <string name="include_numbers">اعداد (0-9)</string>
+    <string name="include_symbols">نمادها (!@#$%)</string>
+    <string name="exclude_ambiguous">حذف نویسه‌های مبهم (l, 1, I, O, 0)</string>
+    <string name="pronounceable_mode">حالت رمز عبور قابل تلفظ / به‌یادماندنی</string>
+    <string name="copy_password_button">کپی کردن رمز عبور</string>
+    <string name="strength_weak">ضعیف</string>
+    <string name="strength_medium">متوسط</string>
+    <string name="strength_strong">قوی</string>
+    <string name="strength_very_strong">بسیار عالی</string>
+    <string name="entropy_estimate">آنتروپی: %1$.1f بیت</string>
+    <string name="password_copied">رمز عبور کپی شد (پاکسازی خودکار حافظه پس از ۳۰ ثانیه)</string>
+
+    <!-- Vault (List) -->
+    <string name="vault_title">صندوقچه آیرون‌ولت</string>
+    <string name="search_placeholder">جستجو در گذرواژه‌ها...</string>
+    <string name="no_items_found">هیچ موردی یافت نشد</string>
+    <string name="add_item_fab">افزودن رمز</string>
+    <string name="favorite_filter">علاقه‌مندی‌ها</string>
+    <string name="all_filter">همه</string>
+    <string name="category_personal">شخصی</string>
+    <string name="category_work">کاری</string>
+    <string name="category_banking">بانکی</string>
+    <string name="category_social">شبکه‌های اجتماعی</string>
+    <string name="copied_username">نام کاربری کپی شد</string>
+    <string name="copied_password">رمز عبور کپی شد</string>
+
+    <!-- Detail / Edit Screen -->
+    <string name="add_item_title">افزودن گذرواژه جدید</string>
+    <string name="edit_item_title">ویرایش گذرواژه</string>
+    <string name="item_name_hint">عنوان (مانند گوگل، گیت‌هاب)</string>
+    <string name="username_hint">نام کاربری یا ایمیل</string>
+    <string name="password_hint">گذرواژه</string>
+    <string name="url_hint">آدرس وب‌سایت (اختیاری)</string>
+    <string name="notes_hint">یادداشت‌ها (کاملاً رمزگذاری‌شده)</string>
+    <string name="category_label">دسته‌بندی</string>
+    <string name="favorite_label">افزودن به علاقه‌مندی‌ها</string>
+    <string name="save_button">ذخیره اطلاعات</string>
+    <string name="delete_button">حذف</string>
+    <string name="delete_confirm_title">حذف این اطلاعات؟</string>
+    <string name="delete_confirm_message">آیا مطمئن هستید که می‌خواهید این گذرواژه را برای همیشه حذف کنید؟ این عمل غیرقابل بازگشت است.</string>
+    <string name="cancel_button">لغو</string>
+    <string name="password_history_title">تاریخچه گذرواژه</string>
+    <string name="no_history">هیچ گذرواژه قبلی ثبت نشده است.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">تنظیمات</string>
+    <string name="security_settings_category">امنیت</string>
+    <string name="backup_settings_category">پشتیبان‌گیری و همگام‌سازی</string>
+    <string name="appearance_settings_category">ظاهر و زبان</string>
+
+    <string name="change_master_password">تغییر رمز عبور اصلی</string>
+    <string name="enable_biometric">فعال‌سازی قفل زیست‌سنجی (اثر انگشت)</string>
+    <string name="autolock_timeout">مدت زمان قفل خودکار</string>
+    <string name="autolock_30s">۳۰ ثانیه</string>
+    <string name="autolock_1m">۱ دقیقه</string>
+    <string name="autolock_5m">۵ دقیقه</string>
+    <string name="autolock_15m">۱۵ دقیقه</string>
+
+    <string name="google_drive_sync">پشتیبان‌گیری در گوگل درایو</string>
+    <string name="google_drive_sync_summary">نسخه پشتیبان رمزگذاری‌شده با دانش صفر در پوشه اختصاصی برنامه شما</string>
+    <string name="backup_now_button">پشتیبان‌گیری اکنون</string>
+    <string name="restore_backup_button">بازیابی از گوگل درایو</string>
+    <string name="last_backup_time">آخرین پشتیبان‌گیری: %1$s</string>
+    <string name="never_backed_up">آخرین پشتیبان‌گیری: هرگز</string>
+
+    <string name="local_export">خروجی گرفتن فایل رمزگذاری‌شده</string>
+    <string name="local_export_summary">ذخیره یک فایل پشتیبان امن به صورت محلی روی دستگاه</string>
+    <string name="local_import">وارد کردن فایل رمزگذاری‌شده</string>
+    <string name="local_import_summary">بازیابی اطلاعات از یک فایل پشتیبان محلی امن</string>
+
+    <string name="theme_selection">پوسته برنامه</string>
+    <string name="theme_light">روشن</string>
+    <string name="theme_dark">تاریک</string>
+    <string name="theme_system">هماهنگ با سیستم</string>
+
+    <string name="language_selection">Language / زبان</string>
+    <string name="language_en">English (LTR)</string>
+    <string name="language_fa">فارسی (RTL)</string>
+
+    <string name="security_info_title">آیرون‌ولت چگونه از شما محافظت می‌کند؟</string>
+    <string name="security_info_text">آیرون‌ولت کاملاً آفلاین کار می‌کند. ما هیچ نوع ابزار ردیابی، آنالیز رفتاری یا سرور خارجی نداریم. کلیه گذرواژه‌ها، نام‌های کاربری و یادداشت‌های شما با رمزگذاری نظامی AES-256-GCM در دستگاه خودتان ذخیره می‌شوند. کلید رمزگذاری با استفاده از الگوریتم پرقدرت PBKDF2 با تکرار بالا استخراج می‌شود. رمز عبور اصلی شما تنها کلید دسترسی است و هرگز از گوشی خارج نمی‌شود. در صورت پشتیبان‌گیری در گوگل درایو نیز، فایل آپلود شده ابتدا به طور کامل روی گوشی رمزگذاری می‌شود، بنابراین حتی گوگل هم نمی‌تواند رمزهای شما را بخواند.</string>
+
+    <string name="backup_success">پشتیبان‌گیری با موفقیت انجام شد!</string>
+    <string name="backup_failed">خطا در پشتیبان‌گیری: %1$s</string>
+    <string name="restore_success">بازیابی با موفقیت انجام شد! اطلاعات بارگذاری مجدد شدند.</string>
+    <string name="restore_failed">خطا در بازیابی: %1$s</string>
+    <string name="export_success">فایل پشتیبان با موفقیت در پوشه دانلودها ذخیره شد</string>
+    <string name="import_success">اطلاعات با موفقیت وارد شدند</string>
+    <string name="import_failed">خطا در وارد کردن اطلاعات: رمز نادرست است یا فایل آسیب دیده است</string>
+</resources>
